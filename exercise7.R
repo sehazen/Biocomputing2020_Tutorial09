@@ -3,11 +3,11 @@
 # Question 1: Replicate Head Function
 
 #Define Variable for number of lines
-n <- 
+n <- #Enter an integer
 
 
 #Define Variable for the file name
-file <- 
+file <- #read in the file in an appropriate way
 
 #Implementation
 file[1:n,]
