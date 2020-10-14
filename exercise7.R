@@ -3,15 +3,18 @@
 # Question 1: Replicate Head Function
 
 #Define Variable for number of lines
-n <- #Enter an integer
+n <- 5 #Enter an integer
 
 
 #Define Variable for the file name
-file <- #read in the file in an appropriate way
+file <- rich.df #read in the file in an appropriate way
 
 #Implementation
-file[1:n,]
+head <- file[1:n,]
 
+#Print
+print(c("Head;" , head))
+      
 # Question 2
 iris <- read_csv("Biocomputing2020_Tutorial09/iris.csv")
 
